@@ -2,7 +2,11 @@
 
 [![GoDoc](https://godoc.org/github.com/RadhiFadlillah/sysloc?status.png)](https://godoc.org/github.com/RadhiFadlillah/sysloc)
 
-Sysloc is a Go package for getting OS locale. It's inspired by [os-locale](https://github.com/sindresorhus/os-locale) by [Sindre Sorhus](https://github.com/sindresorhus), except here for Mac OS we simply use `$LANG` environment variable.
+Sysloc is a Go package for getting OS locale. It's inspired by [jmshal/go-locale](https://github.com/jmshal/go-locale), which in turn inspired by [sindresorhus/os-locale](https://github.com/sindresorhus/os-locale). The differences are :
+
+- Uses go module.
+- No more underscore in package name.
+- For Mac OS we simply use `$LANG` environment variable.
 
 ## Usage Examples
 
